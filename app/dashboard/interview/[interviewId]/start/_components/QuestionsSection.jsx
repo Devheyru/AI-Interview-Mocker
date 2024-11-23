@@ -25,7 +25,7 @@ function QuestionsSection({
                             text-sm text-center
                             "${
                               activeQuestionIndex == index &&
-                              " bg-blue-500 text-white"
+                              " bg-gray-50 text-blue-500"
                             }`}
               >
                 Question #{index + 1}
