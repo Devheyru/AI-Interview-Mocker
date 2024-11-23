@@ -32,7 +32,7 @@ function Header() {
       <ul
         className={`absolute md:relative md:flex md:flex-row md:items-center text-black transition-transform transform ${
           menuOpen
-            ? "flex flex-col top-20 right-0 w-auto rounded-lg contrast-200 bg-slate-50 text-white opacity-50 p-4 shadow-md items-end "
+            ? "flex flex-col top-20 right-0 w-auto rounded-lg  text-black  p-4 shadow-md items-end "
             : "hidden"
         } md:flex-row md:gap-6 md:bg-transparent md:top-0 md:p-0 text-left md:w-auto`}
       >

@@ -21,7 +21,7 @@ function QuestionsSection({
           {mockInterviewQuestion &&
             mockInterviewQuestion.map((questions, index) => (
               <h2
-                className={`"cursor-pointer p-2 bg-secondary rounded-full 
+                className={`"cursor-pointer p-2 bg-secondary text-blue-500 rounded-full 
                             text-sm text-center
                             "${
                               activeQuestionIndex == index &&
